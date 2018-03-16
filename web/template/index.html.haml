@@ -1,13 +1,7 @@
-!!! 5
-%html
-  %body
-    %div.container
-      %header
-        %h1 title
-        %h2 subtitle
-      %div.contents
-        %div.single-box
-          %h2.box-title
-          %p.box-discription
-      %footer
-        %p unitopi. All rights reserved.
+- import Sakura2.Gettext
+%h1
+  = "Message from #{gear_name}: " <> gettext "Hello"
+%h2 
+  = "Message from #{gear_name}: " <> "Hello!!"
+%h3
+  = "Server Time11"
