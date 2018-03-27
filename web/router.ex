@@ -5,4 +5,5 @@ defmodule Sakura2.Router do
   
   get "/hello", Hello, :hello
   get "/index", Index, :index
+  post "/v1/file", File, :create
 end
